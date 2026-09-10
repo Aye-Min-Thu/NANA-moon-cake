@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Products - NANA Mooncake Factory</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header class ="header">
+            <div class="headerLogo">
+                <img src="images/nanalogo11.png" alt="Logo" class="logo">
+            </div>
+            <nav class="nav">
+                
+                    <a href="index.html">HOME</a>
+                    <a href="about.html">ABOUT US</a>
+                    <a href="products.html">PRODUCTS</a>
+                    <a href="factory.html">OUR FACTORY</a>
+                    <a href="#news">NEWS</a>
+                    <a href="contact.html">CONTACT US</a>
+            </nav>
+
+            <button class="menu-toggle" aria-label="Toggle menu">
+                <span class="hamburger"></span>
+                <span class="hamburger"></span>
+                <span class="hamburger"></span>
+            </button>
+        </header>
+
+        <section class="section products-section" id="products">
+            <div class="section-header">
+                <h2 class="section-title">OUR ARTISANAL CREATIONS</h2>
+                <div class="title-divider"></div>
+                <p class="section-subtitle">Handcrafted with tradition, baked to perfection</p>
+            </div>
+
+            <div class="product-filter">
+                <button class="filter-btn active">ALL</button>
+                <button class="filter-btn">CLASSIC</button>
+                <button class="filter-btn">SNOWSKIN</button>
+                <button class="filter-btn">GIFT SETS</button>
+            </div>
+
+            <div class="products-grid">
+
+                <div class="product-card" onclick="openModal('images/lotuseedmooncake.jpg', 'Traditional Lotus Seed Paste Mooncake')">
+                    <div class="card-img-holder">
+                        <span class="badge">Bestseller</span>
+                        <img src="images/lotuseedmooncake.jpg" alt="Lotus Seed Mooncake" loading="lazy">
+                    </div>
+                    <div class="card-info">
+                        <span class="category">CLASSIC</span>
+                        <h3>Lotus Seed Single Yolk</h3>
+                        <p>Silky lotus seed paste with premium salted egg yolk. </p>
+                        <div class="card-footer">
+                            <span class="price">$12.00</span>
+                            <button class="view-btn"><i class="fa-solid fa-eye"></i> View</button>
+                        </div>
+                    </div>
+                </div>
+
+                 <div class="product-card" onclick="openModal('images/durainmooncake.jpg', 'Durain Snowskin Mooncake')">
+                    <div class="card-img-holder">
+                        <span class="badge new">New</span>
+                        <img src="images/durainmooncake.jpg" alt="Snowskin Mooncake" loading="lazy">
+                    </div>
+                    <div class="card-info">
+                        <span class="category">SNOWSKIN</span>
+                        <h3>Musang King Snowskin</h3>
+                        <p>Rich, creamy durain pulp wrapped in soft chilled skin.</p>
+                        <div class="card-footer">
+                            <span class="price">$15.00</span>
+                            <button class="view-btn"><i class="fa-solid fa-eye"></i> View</button>
+                        </div>
+                    </div>
+                </div>
+
+                 <div class="product-card" onclick="openModal('images/redbeanmooncake.jpg', 'Signature Red Bean Paste Mooncake')">
+                    <div class="card-img-holder">
+                        <span class="badge">Classic</span>
+                        <img src="images/redbeanmooncake.jpg" alt="Red Bean Mooncake" loading="lazy">
+                    </div>
+                    <div class="card-info">
+                        <span class="category">CLASSIC</span>
+                        <h3>Red Bean & Roasted Sesame</h3>
+                        <p>Sweet red bean paste combined with fragnant sesame seeds.</p>
+                        <div class="card-footer">
+                            <span class="price">$10.00</span>
+                            <button class="view-btn"><i class="fa-solid fa-eye"></i> View</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+          <footer class="footer">
+             <div class="footer-container">
+            <div class="footer-brand">
+                <img src="images/nanalogo11.png" alt="Logo" class="logo">
+                <p>NANA Mooncake Factory brings you<br> premium mooncakes, breads and<br> pastries made with dedication,<br> tradition and love.</p>
+            </div>
+            <div class="footer-links">
+                <h4>QUICK LINKS</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="factory.html">Our Factory</a></li>
+                    <li><a href="#news">News</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h4>CONTACT US</h4>
+                <p><i class="fa-solid fa-phone"></i> +84 123 456 789</p>
+                <p><i class="fa-solid fa-envelope"></i> info@nanamooncake.com</p>
+                <p><i class="fa-solid fa-location-dot"></i> 123 Bakery road, Ho Chi Minh City, Vietnam</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 NANA Mooncake Factory. All rights reserved.</p>
+        </div>
+        </footer>
+
+        <script src="script.js"></script>
+    </body>
+</html>

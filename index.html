@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>NaNa's Hong Phat Moon Cake</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class ="header">
+            <div class="headerLogo">
+                <img src="images/nanalogo11.png" alt="Logo" class="logo">
+            </div>
+            <nav class="nav">
+                
+                    <a href="index.html">HOME</a>
+                    <a href="about.html">ABOUT US</a>
+                    <a href="products.html">PRODUCTS</a>
+                    <a href="factory.html">OUR FACTORY</a>
+                    <a href="#news">NEWS</a>
+                    <a href="contact.html">CONTACT US</a>
+            </nav>
+
+            <button class="menu-toggle" aria-label="Toggle menu">
+                <span class="hamburger"></span>
+                <span class="hamburger"></span>
+                <span class="hamburger"></span>
+            </button>
+    </header>
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-content">
+                <h1>
+                    CRAFTED TRADITIONAL<br>
+                    SHARED WITH LOVE
+                </h1>
+                <p>
+                    Premium mooncakes and baked delights<br>
+                    from our heart to your celebration.
+                </p>
+                <a href="#products" class="hero-btn">
+                    EXPLORE OUR PRODUCTS
+                </a>
+            </div>
+        </section>
+
+        <!-- Signature Products Section -->
+        <section class="section products-section" id="products">
+            <h2 class="section-title">OUR SIGNATURE PRODUCTS</h2>
+            <p class="section-subtitle">Made with the finest ingredients, using time-honored recipes to bring you authentic taste in every bite.</p>
+
+            <div class="product-grid">
+                <div class="product-card" onclick="openModal('images/mooncake.jpg', 'MOONCAKES - Traditional & Premium Collection')">
+                    <img src="images/mooncake.jpg" alt="mooncakes">
+                    <h3>MOONCAKES</h3>
+                    <p>Traditional & Premium Collection</p>
+                    <a href="#" class="arrow-btn"> > </a>
+                </div>
+                <div class="product-card" onclick="openModal('images/bread.jpg', 'BREAD - Soft, Fresh & Delious')">
+                    <img src="images/bread.jpg" alt="bread">
+                    <h3>BREAD</h3>
+                    <p>Soft, Fresh & Delicious</p>
+                    <a href="#" class="arrow-btn"> > </a>
+                </div>
+                <div class="product-card" onclick="openModal('images/pastries.jpg', 'PASTRIES - Flaky, Rich & Flavourful')">
+                    <img src="images/pastries.jpg" alt="pastries">
+                    <h3>PASTRIES</h3>
+                    <p>Flaky, Rich & Flavorful</p>
+                    <a href="#" class="arrow-btn"> > </a>
+                </div>
+                <div class="product-card" onclick="openModal('images/giftset.jpg', 'GIFT SET - Perfect for Every Occasion')">
+                    <img src="images/giftset.jpg" alt="Gift Sets">
+                    <h3>GIFT SETS</h3>
+                    <p>Perfect for Every Occasion</p>
+                    <a href="#" class="arrow-btn"> > </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Factory Section -->
+        <section class="section factory-section" id="factory">
+            <div class="factory-container">
+                <div class="factory-image">
+                    <img src="images/factory.jpg" alt="Our Factory">
+                </div>
+                <div class="factory-info">
+                    <span class="tag">OUR FACTORY</span>
+                    <h2>QUALITY YOU CAN TRUST</h2>
+                    <P>NANA Moncake Factory is built on a passion for<br> quality and tradition. From ingredient selection<br> to production, every step is carefully controlled<br> to ensure safety, consistency and excellence.</P>
+
+                    <div class="feature-grid">
+                        <div class="feature-item">
+                            <i class="fa-solid fa-industry"></i>
+                            <span>Modern Facility</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fa-solid fa-shield-halved"></i>
+                            <span>Strict Quality Control</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fa-solid fa-pump-soap"></i>
+                            <span>Hygienic Production</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fa-solid fa-globe"></i>
+                            <span>International Standards</span>
+                        </div>
+                    </div>
+
+                    <a href="#" class="outline-btn">LEARN MORE ABOUT US</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Why Choose NaNa Section -->
+        <section class="section why-choose">
+            <h2 class="section-title">WHY CHOOSE NANA</h2>
+            <div class="title-divider"></div>
+
+            <div class="why-grid">
+                <div class="why-card">
+                    <div class="why-icon">
+                        <i class="fa-solid fa-scroll"></i>
+                    </div>
+                    <h3>TRADITIONAL RECIPES</h3>
+                    <p>Time-honored recipes passed down to preserve authentic taste.</p>
+                </div>
+                <div class="why-card">
+                    <div class="why-icon">
+                        <i class="fa-solid fa-wheat-awn"></i>
+                    </div>
+                    <h3>PREMIUM INGREDIENTS</h3>
+                    <p>We use only the finest ingredients for the best quality products.</p>
+                </div>
+                <div class="why-card">
+                    <div class="why-icon">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+                    <h3>MADE WITH CARE</h3>
+                    <p>Every product is crafted with passion and attention to detail.</p>
+                </div>
+                <div class="why-card">
+                    <div class="why-icon">
+                        <i class="fa-solid fa-users"></i>
+                    </div>
+                    <h3>MADE FOR SHARING</h3>
+                    <p>Perfect treats for your family and every celebration.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Banner Section -->
+        <section class="banner-section">
+            <h2>LET'S CREATE SWEET MOMENTS TOGETHER</h2>
+            <p>For bulk orders, partanerships or inquiries, we are ready to serve you!</p>
+            <a href="#contact" class="outline-btn">CONTACT US</a>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-brand">
+                <img src="images/nanalogo11.png" alt="Logo" class="logo">
+                <p>NANA Mooncake Factory brings you<br> premium mooncakes, breads and<br> pastries made with dedication,<br> tradition and love.</p>
+            </div>
+            <div class="footer-links">
+                <h4>QUICK LINKS</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="factory.html">Our Factory</a></li>
+                    <li><a href="#news">News</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h4>CONTACT US</h4>
+                <p><i class="fa-solid fa-phone"></i> +84 123 456 789</p>
+                <p><i class="fa-solid fa-envelope"></i> info@nanamooncake.com</p>
+                <p><i class="fa-solid fa-location-dot"></i> 123 Bakery road, Ho Chi Minh City, Vietnam</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 NANA Mooncake Factory. All rights reserved.</p>
+        </div>
+    </footer>
+    <div id="imageModal" class="modal">
+        
+        <div class="modal-content-wrapper">
+            <span class="close-modal">&times;</span>
+            <img class="modal-content" id="modalImg">
+            <div id="modalCaption"></div>
+        </div>
+    </div> 
+
+    <script src="script.js"></script>
+</body>
+</html>

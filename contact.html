@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>CONTACT - NANA Mooncake Factory</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class ="header">
+            <div class="headerLogo">
+                <img src="images/nanalogo11.png" alt="Logo" class="logo">
+            </div>
+            <nav class="nav">
+                
+                    <a href="index.html">HOME</a>
+                    <a href="about.html">ABOUT US</a>
+                    <a href="products.html">PRODUCTS</a>
+                    <a href="factory.html">OUR FACTORY</a>
+                    <a href="#news">NEWS</a>
+                    <a href="contact.html">CONTACT US</a>
+            </nav>
+
+            <button class="menu-toggle" aria-label="Toggle menu">
+                <span class="hamburger"></span>
+                <span class="hamburger"></span>
+                <span class="hamburger"></span>
+            </button>
+    </header>
+
+    <section class="section contact-section" id="contact">
+        <div class="section-header">
+            <h2 class="section-title">GET IN TOUCH</h2>
+            <div class="title-divider"></div>
+            <p class="section-subtitle">Order in bulk or ask us anything about our products</p>
+        </div>
+
+        <div class="contact-container">
+            <div class="contact-info">
+                <div class="info-card">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <h4>Factroy Address</h4>
+                    <p>NO. 123, Mooncake Road, Industrial Zone, Ho Chi Min</p>
+                </div>
+                <div class="info-card">
+                    <i class="fa-solid fa-phone"></i>
+                    <h4>Phone & Order</h4>
+                    <p> +84 39 25 36 400 / +84 39 12 23 400</p>
+                </div>
+                <div class="info-card">
+                    <i class="fa-solid fa-envelope"></i>
+                    <h4>Email Us</h4>
+                    <p>info@nanamooncake.com</p>
+                </div>
+            </div>
+
+            <form class="contact-form" onsubmit="event.preventDefault(); alert('Thank you for your message! We will get back to you soon.');">
+                <div class="form-group">
+                    <input type="text" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="tel" placeholder="Phone Number" required>
+                </div>
+                <div class="form-group">
+                    <textarea rows="4" placeholder="Your Message or Order Inquiry..." required></textarea>
+                </div>
+                <button type="submit" class="submit-btn">SEND MESSAGE</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-brand">
+                <img src="images/nanalogo11.png" alt="Logo" class="logo">
+                <p>NANA Mooncake Factory brings you<br> premium mooncakes, breads and<br> pastries made with dedication,<br> tradition and love.</p>
+            </div>
+            <div class="footer-links">
+                <h4>QUICK LINKS</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="factory.html">Our Factory</a></li>
+                    <li><a href="#news">News</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-socials">
+                <h4>FOLLOW US</h4>
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 NANA Mooncake Factory. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
